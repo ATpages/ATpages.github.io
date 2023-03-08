@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Genos', sans-serif;
+    font-size: 30px;
+}
+
+header {
+    text-align: center;
+    background-image: url(fondo\ programacion.jpg);
+    padding: 10px;
+    }
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    text-shadow: 0 0 20px #ffffff;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0 15px #ffffff;
+}
+.foto {
+    border-radius: 50%;
+    box-shadow: 3px 5px 32px 5px #000000
+}
+
+#experiencia, #mas, #datos {
+    display: none;
+}
+
+.tab {
+    float: left;
+    background-color: #f1f1f109;
+    width: 30%;
+    height: 100%;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: #000000;
+    padding: 15px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    transition: 0.3s;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tab button:hover {
+    background-color: #dddddd;
+}
+
+.tab button.active {
+    background-color: #4bc1e6;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-top: black;
+    height: 100%;
+    background: #4bc1e6;
+    background: -moz-linear-gradient(left, #4bc1e6 0%, #FFFFFF 50%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #4bc1e6 0%, #FFFFFF 50%, #FFFFFF 100%);
+    background: linear-gradient(to right, #4bc1e6 0%, #FFFFFF 50%, #FFFFFF 100%);
+}
+
+.datos, .redes, .experiencia, .mas {
+    padding: 15px;
+    text-align: center;
+
+} 
+
+.redes a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    text-indent: 50px;
+    font-size: 30px;
+}
+
+h3, h4{
+    padding: 15px;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #000000;
+    font-size: 45px;
+    margin: 0;
+}
+
+.mas ul li{
+    padding: 15px;
+    list-style: none;
+}
+
+.subir a{
+    padding-bottom: 15px;
+}

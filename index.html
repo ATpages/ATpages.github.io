@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="elementos/at.ico">
+    <meta property="og:title" content="Adriana Tripoli - CV" />
+    <meta property="og:type" content="Curriculum Vitae" />
+    <meta property="og:url" content="http://www.example.com" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:description" content="Este es el curriculum Vitae de Adriana Tripoli" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,400;0,600;1,500&family=Permanent+Marker&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+    <title>CV ADRIANA TRIPOLI</title>
+</head>
+
+<body>
+    <header>
+        <h1>ADRIANA TRIPOLI</h1>
+        <h2>Curriculum Vitae</h2>
+        <img class="foto"  src="elementos/mi foto.jpg" alt="Mi foto de perfil" width="150"/>
+    </header>
+
+        <!-- TAB -->
+        
+    <div class="tab">
+        <button class="tablinks" onclick="openItem(event, 'experiencia')">Experiencia y formación</button>
+        <button class="tablinks" onclick="openItem(event, 'mas')">Más acerca de mí</button>
+        <button class="tablinks" onclick="openItem(event, 'datos')">Datos y contacto</button>
+    </div>
+    
+        <!-- EXPERIENCIA -->
+        
+    <div class="tabcontent" id="experiencia">
+        <h3>Experiencia laboral</h3>
+        <dl>
+            <dt>2010-2022</dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate justo sit amet pulvinar malesuada.</dd>
+            <dt>2007-2012</dt>
+            <dd>Vivamus sit amet orci sapien. Quisque viverra et magna.</dd>
+        </dl>
+        <h3>Formación academica</h3>
+            <dl>
+            <dt>2005-2006</dt>
+            <dd>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.</dd>
+            <dt>2003-2004</dt>
+            <dd>Cras commodo massa id ex posuere tincidunt. Proin nec purus.</dd>
+        </dl>
+        <h3>Objetivo Principal</h3>
+        <p>Aliquam molestie at tortor ac iaculis. Curabitur dui erat, elementum eget congue ut, aliquam at felis. Nam volutpat arcu vitae ante consectetur, quis venenatis elit ultrices. Donec arcu lacus, auctor vel lorem et, euismod vehicula diam. Morbi posuere accumsan dictum. Phasellus facilisis tincidunt neque, ut porta massa consectetur non. Sed at tellus porttitor, vestibulum velit eu, blandit sem. In ac ultricies dolor. Fusce volutpat id enim ac porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <p>Donec id orci vel arcu varius varius. Aenean eget tincidunt orci. Donec at tortor auctor, ullamcorper dui in, fermentum augue. Integer aliquet facilisis nulla, et aliquet tellus convallis id. Donec vel leo sit amet est rhoncus tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et consectetur purus.</p>
+        <a href="#top" class="subir">Subir</a>  
+    </div>
+
+        <!-- MAS ACERCA DE MI -->
+    
+    <div  class="tabcontent" id="mas">
+        <h4>Otros saberes</h4>
+        <ul>
+            <li><strong> Sed pulvinar:</strong> lorem vel vestibulum viverra, ante diam posuere massa, nec pellentesque mi est ultricies.</li>
+            <li><strong>Proin interdum feugiat lacus:</strong>vitae vulputate lorem mollis nec. Pellentesque dignissim justo in neque interdum.</li>
+        </ul>
+        <h4>Intereses</h4>
+        <p>Donec eu aliquam elit, non porta lectus. Suspendisse elit sapien, mattis eget est at, convallis finibus nunc. Suspendisse varius sem a pulvinar efficitur. Pellentesque mollis erat lorem, eu tristique est egestas et. Fusce consequat pellentesque laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus fringilla placerat elementum. Cras cursus tincidunt interdum. Quisque eu vestibulum erat. Ut quis orci eget libero sagittis dapibus vitae id nisi. Suspendisse ut pretium nisl.</p>
+        <p>Nunc vitae arcu quis tellus rhoncus tincidunt nec eu nibh. Sed tempus augue varius euismod dignissim. Curabitur blandit ligula vel erat cursus facilisis. Sed non elit ex. Nulla fermentum pharetra nisi, ac semper nibh scelerisque ut. Proin vitae felis sed arcu pulvinar sollicitudin ac nec erat. Praesent augue felis, maximus vulputate mollis tincidunt, pulvinar nec eros. Proin quis tristique nisl. Fusce lectus mi, accumsan vel pretium ut, convallis ut lacus. Nulla efficitur maximus lectus, quis molestie metus posuere rutrum. Aenean ante felis, placerat a metus ac, ultricies mollis lectus. In et tincidunt tellus.</p>
+        <a href="#top" class="subir">Subir</a>
+    </div> 
+    
+    <!-- DATOS Y REDES -->
+    
+    <div class="tabcontent" id="datos"> 
+        <h3>Información personal</h3> 
+        <div class="datos">
+        <strong>Adriana Tripoli</strong> <br>
+        DD/MM/AAAA <br>
+        Mi estado civil <br>
+        XX-XXXX-XXXX <br>
+        <address>
+        Av. Inventada 1234 1*A <br>
+        CABA <br>
+        Argentina<br>
+        </address>
+        <a href="mailto:miemail@mail.com">miemail@mail.com</a>
+        
+    <div class="redes" id="redes">
+        <br>
+        <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="https://twitter.com/?lang=es" target="_blank" title="Twitter"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="https://ar.linkedin.com/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://youtube.com" target="_blank" title="Youtube"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+    </div>
+    <a href="#top" class="subir">Subir</a>
+    </div>
+
+</body>
+</html>
